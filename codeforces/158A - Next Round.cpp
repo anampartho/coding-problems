@@ -44,8 +44,8 @@ int main()
   // Set the total count to 0 for now.
   int total_next_round(0);
 
-  // Loop through the scores array and find out how many is eligible to go to the
-  // next round.
+  // Loop through the scores array and find out how many participants are
+  // eligible to go to the next round.
   for (int i = 0; i < contestant_count; i++)
   {
     // Increment only when the score of the current participant is greater than
