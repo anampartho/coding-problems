@@ -19,9 +19,9 @@ int main()
 {
   /**
    * The row and col of the center item of the matrix is [3, 3];
-   * To find out the moves required, we need to find the row and col of the
-   * number 1 and then use the formula is:
-   *  move = abs(center row - row of 1) + abs(center col - col of 1)
+   * To find out the moves required, we need to find the row and col of 1 in
+   * the matrix and use the following formula:
+   * move = abs(center row - row of 1) + abs(center col - col of 1)
    * example: abs(3 - 1) + abs(3 - 5);
    */
 
